@@ -5,14 +5,13 @@ Requirements
 
 DESIGN
 
-Our model to caption images are built on multimodal recurrent and convolutional neural networks. A Convolutional Neural Network is used to extract the features from an image which is then along with the captions is fed into a Recurrent Neural Network. The architecture of the image captioning model
+Our model to caption images are built on multimodal recurrent and convolutional neural networks. A Convolutional Neural Network is used to extract the features from an image which is then along with the captions is fed into a Recurrent Neural Network. 
 
-This architecture involves two main modules. The first one is image understanding module using CNN and the second one is text understanding module using LSTM. Each module is described in details in the following subsections.
+This architecture involves two main modules. The first one is image understanding module using CNN and the second one is text understanding module using LSTM. 
  
 Model Structure
 
-This may be one of the most important questions whenever developing a neural net. This question is not an easy one and can not easily be answered. A model will always be developed for a specific task, therefore no general answer can be given. However, there is some research about how to come up with a good model structure for a given task. In the field of image captioning Marc Tanti, et al. compared 16 different model architectures and determined the best one. In this tutorial we will follow their merge-add architecture, which is depicted in Figure below:
-
+This may be one of the most important questions whenever developing a neural net. This question is not an easy one and can not easily be answered. A model will always be developed for a specific task, therefore no general answer can be given. However, there is some research about how to come up with a good model structure for a given task. In the field of image captioning Marc Tanti, et al. compared 16 different model architectures and determined the best one. 
 
 
 This model architecture takes two vectors as inputs:
